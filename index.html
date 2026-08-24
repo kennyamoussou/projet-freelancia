@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancia</title>
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- header -->
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-        <div class="container my-2">
+        <div class="container">
             <a class="navbar-brand text-uppercase fw-bold" href="index.html">
                 <span class=" b p-1 rounded-3 text-warning">Free</span>lancia
             </a>
@@ -33,12 +42,42 @@
                     </li>
                 </ul>
             </div>
-            <button type="button" class="btn btn-primary">commencer gratuitement</button>
-            
+            <a href="formulaire.html" class="text-decoration-none p-2 rounded-3" style="background-color: #8b5cf6; color: white;">commencer gratuitement</a>
         </div>
     </nav>
 
+    <main>
+        <section class="hero-section container-fluid my-5" style="background: url(image/bg_7.jpeg); object-fit: cover">
+            <div class="hero-overlay py-5"
+                style="linear-gradient(rgba(11, 11, 20, 0.8) 0%, rgba(11, 11, 20, 0.5) 25%, rgba(11, 11, 20, 0.15) 45%, transparent 55%, rgba(11, 11, 20, 0.3) 80%, rgb(11, 11, 20) 100%);">
+                <div class="hero-badge absolute left-0 right-0 text-center px-4">
+                    <div class="d-inline-flex rounded-pill px-3 py-2"
+                        style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.3);">
+                        <span style="color: #8b5cf6; font-size: 13px;">
+                            La plateforme #1 pour les freelances africains
+                        </span>
+                    </div>
+                </div>
+                <h1 class="hero-title left-0 right-0 mt-4 text-center" style="font-size: clamp(1.75rem, 4vw, 5rem);">
+                    <span class="fw-bold" style="color: white; font: size 50px; ;">
+                        Transformez vos talents en  <br>
+                        <span class="fst-italic" style="color:#8b5cf6"> revenus durables. </span>
+                    </span>
+                </h1>
+                <p class="text-white text-center fs-6 fs-md-4 fs-lg-2 py-2" style="font-size: clamp(0.5rem, 3vw, 2rem);">
+                    La plateforme tout-en-un pour proposer, vendre et encaisser vos prestations <br> en ligne. <b> Avec seulement 4% de commission et un réseau de clients</b> <br> qualifiés, développez votre activité sans friction.
+                </p>
+                <div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
