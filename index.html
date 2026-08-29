@@ -11,64 +11,120 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
 </head>
 
 <body>
     <!-- header -->
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand text-uppercase fw-bold" href="index.html">
-                <span class=" b p-1 rounded-3 text-warning">Free</span>lancia
-            </a>
+        <div class="container flex justify-content-between ">
+            <a class="navbar-brand" href="index.html">Free<span
+                    style="color: #8b5cf6; font-weight: 600;">lancia</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
-                        <a class="nav-link mx-3" href="#johndoe">Qui suis-je ?</a>
+                        <a class="nav-link mx-3" href="#avantages">Avantages</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3" href="#expertise">Expertises</a>
+                        <a class="nav-link mx-3" href="#tarification">Tarification</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3" href="#portfolio">Portfolio</a>
+                        <a class="nav-link mx-3" href="#trophées">Trophées</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-3" href="#contact">Contact</a>
                     </li>
                 </ul>
+                <a href="formulaire.html" class="text-decoration-none p-2 rounded-3"
+                    style="background-color: #8b5cf6; color: white;">
+                    commencer gratuitement
+                </a>
             </div>
-            <a href="formulaire.html" class="text-decoration-none p-2 rounded-3" style="background-color: #8b5cf6; color: white;">commencer gratuitement</a>
+
+
         </div>
     </nav>
 
     <main>
-        <section class="hero-section container-fluid my-5" style="background: url(image/bg_7.jpeg); object-fit: cover">
-            <div class="hero-overlay py-5"
+        <section class="hero-section container-fluid my-5" style="background: url(image/0b67d124cd23f9ada4957a2903081386.jpg); object-fit: cover; background-repeat: no-repeat; background-size: cover; background-position: center;">
+            <div class="hero-overlay container py-5"
                 style="linear-gradient(rgba(11, 11, 20, 0.8) 0%, rgba(11, 11, 20, 0.5) 25%, rgba(11, 11, 20, 0.15) 45%, transparent 55%, rgba(11, 11, 20, 0.3) 80%, rgb(11, 11, 20) 100%);">
                 <div class="hero-badge absolute left-0 right-0 text-center px-4">
-                    <div class="d-inline-flex rounded-pill px-3 py-2"
+                    <div class="d-inline-flex rounded-pill p-2 mb-3 mb-md-0"
                         style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.3);">
                         <span style="color: #8b5cf6; font-size: 13px;">
                             La plateforme #1 pour les freelances africains
                         </span>
                     </div>
                 </div>
-                <h1 class="hero-title left-0 right-0 mt-4 text-center" style="font-size: clamp(1.75rem, 4vw, 5rem);">
-                    <span class="fw-bold" style="color: white; font: size 50px; ;">
-                        Transformez vos talents en  <br>
+
+                <h1 class="hero-title left-0 right-0 py-2 m-md-4 text-center" style="font-size: clamp(2.4rem, 5vw, 4rem);">
+                    <span class="fw-bold" style="color: white;">
+                        Transformez vos talents en <br>
                         <span class="fst-italic" style="color:#8b5cf6"> revenus durables. </span>
                     </span>
                 </h1>
-                <p class="text-white text-center fs-6 fs-md-4 fs-lg-2 py-2" style="font-size: clamp(0.5rem, 3vw, 2rem);">
-                    La plateforme tout-en-un pour proposer, vendre et encaisser vos prestations <br> en ligne. <b> Avec seulement 4% de commission et un réseau de clients</b> <br> qualifiés, développez votre activité sans friction.
-                </p>
-                <div>
 
+                <p class="text-white fs-6 fs-md-4 fs-lg-2 text-center"
+                    style="font-size: 1.1rem; max-width: 600px; margin: auto; padding-bottom: 25px; line-height: 1.9;">
+                    La plateforme tout-en-un pour proposer, vendre et encaisser vos prestations en ligne. <b> Avec
+                    seulement 4% de commission et un réseau de clients </b> qualifiés, développez votre activité
+                    sans friction.
+                </p>
+
+                <div class="container">
+                    <div class="hero-cta d-flex flex-column flex-md-row align-items-center justify-content-md-center mb-3 m-md-4">
+                        <div class="primaire text-center mb-3 mb-md-3 mx-md-3">
+                            <a href="formulaire.html" class=" text-decoration-none" style="color: white;">
+                                <div class="d-flex align-items-center gap-2">
+                                    Créer mon profil freelance <i class="fa-regular fa-user"
+                                        style="color: rgb(255, 255, 255);"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="secondaire text-center mb-3 mb-md-3 mx-md-3">
+                            <a href="" class="text-decoration-none" style="color: white; ">
+                                <div class="d-flex align-items-center gap-2">
+                                    Voir la tarification <i class="fa-solid fa-tag"
+                                        style="color: rgb(255, 255, 255);"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-avatar d-flex align-items-center justify-content-center py-2 py-md-3">
+                    <div class="avatar1">
+                        <img class="img-fluid" src="image/NEWWEE~1.webp" alt="homme chauve en costume" style="object-fit: cover; width: 50px; height: 50px; border-radius: 50%;">
+                    </div>
+                    <div class="avatar2">
+                        <img class="img-fluid" src="image/Beautiful.webp" alt="homme chauve en costume" style="object-fit: cover; width: 50px; height: 50px; border-radius: 50%;">
+                    </div>
+                    <div class="avatar3">
+                        <img class="img-fluid" src="image/Corporate slay, chocolate way🖤🤎___Photographed by @snapedge_k _Stylist👗_ @styledbyaladdin _Model 💃_ @ugosusan22 _MUA💄_ @dollypee__signature.webp" alt="homme chauve en costume" style="object-fit: cover; width: 50px; height: 50px; border-radius: 50%;">
+                    </div>
+                    <div class="avatar4">
+                        <img class="img-fluid" src="image/Gabe-Kunda.webp" alt="homme chauve en costume" style="object-fit: cover; width: 50px; height: 50px; border-radius: 50%;">
+                    </div>
+                    <div class="avatar5">
+                        <img class="img-fluid" src="image/télécharger-_5_.webp" alt="homme chauve en costume" style="object-fit: cover; width: 50px; height: 50px; border-radius: 50%;">
+                    </div>
+                    <div class="avatar6">
+                        <img class="img-fluid" src="image/A professional man standing.webp" alt="homme chauve en costume" style="object-fit: cover; width: 50px; height: 50px; border-radius: 50%;">
+                    </div>
+                </div>
+
+                <div class="hero-dashbord py-4 py-md-5">
+                    <img class="img-fluid rounded-3 mx-auto d-block" src="image/dashboard_violet.png" alt="tableau de bord d'un freelance" style="width: 70%;">
                 </div>
             </div>
         </section>

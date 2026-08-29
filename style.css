@@ -5,3 +5,26 @@ h1{
 p{
     font-family: "Inter", sans-serif;
 }
+
+.navbar-brand{
+    font-weight: 600;
+}
+
+.primaire{
+    background-color: #8b5cf6;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 12px 17px;
+    border-radius: 15px;
+    align-self: center;
+}
+.secondaire{
+    background-color: #5a595c6d;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 13px 17px;
+    border-radius: 15px;
+    align-self: center;
+}
