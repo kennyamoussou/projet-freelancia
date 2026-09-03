@@ -74,3 +74,8 @@ h1{
     font-weight: 200;
     font-size: 0.95rem;
 }
+
+.card-testimonial{
+    background-color: #86868630; 
+    border: 1px solid rgba(245, 245, 220, 0.153);
+}
