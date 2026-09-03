@@ -61,7 +61,16 @@ h1{
     line-height: 1.9;
 } 
 
+.card{
+    background-color: #86868630; 
+    border: 1px solid rgba(245, 245, 220, 0.153);
+}
 .card:hover{
-    border-color: #8b5cf6;
+    border: 1px solid #4701ea72;
 }
 
+.card-text{
+    color: #f5f5f5a4;
+    font-weight: 200;
+    font-size: 0.95rem;
+}
