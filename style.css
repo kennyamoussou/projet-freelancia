@@ -25,6 +25,7 @@ h1{
     padding: 12px 17px;
     border-radius: 15px;
     align-self: center;
+    
 }
 
 .primaire:hover{
@@ -76,6 +77,11 @@ h1{
 }
 
 .card-testimonial{
+    background-color: #86868630; 
+    border: 1px solid rgba(245, 245, 220, 0.153);
+}
+
+.stat-card{
     background-color: #86868630; 
     border: 1px solid rgba(245, 245, 220, 0.153);
 }
