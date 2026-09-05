@@ -62,7 +62,7 @@ h1{
     line-height: 1.9;
 } 
 
-.card{
+.card,.rank-card{
     background-color: #86868630; 
     border: 1px solid rgba(245, 245, 220, 0.153);
 }
@@ -85,3 +85,4 @@ h1{
     background-color: #86868630; 
     border: 1px solid rgba(245, 245, 220, 0.153);
 }
+
