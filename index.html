@@ -667,6 +667,233 @@
                                         style="background-color: #ffffff; color: #8b5cf6;">Débutant</span>
                                 </div>
                             </div>
+                            <div class="col-12 my-2 d-flex align-items-center" style="max-width: 750px;">
+                                <div class="card-fonction d-flex align-items-center p-3 rounded-4">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <p class="" style="color: #f5f5f5a4; font-weight: 300; margin-bottom: 0;">
+                                            <strong class="text-white fw-bold fs-6">
+                                                Comment ça fonctionne ?
+                                            </strong>
+                                            Vos revenus s'accumulent au fil du temps
+                                            <i class="fa-solid fa-arrow-right mx-1" style="color: #ffffff;"></i>
+                                            Vous franchissez un seuil
+                                            <i class="fa-solid fa-arrow-right mx-1" style="color: #ffffff;"></i>
+                                            Le trophée se débloque automatiquement, avec les avantages associés.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tarification">
+            <div class="container">
+                <div class="my-5">
+                    <div class="section-header py-5">
+                        <div class="section-label">
+                            <h5 class="text-center py-2 pt-4" style="color: #8b5cf6; letter-spacing: 3px;">
+                                TARIFICATION
+                            </h5>
+                        </div>
+                        <div class="section-title">
+                            <h1 class="left-0 right-0 py-2 m-md-2 text-center text-white">
+                                Simple, transparent, sans <br> surprise
+                            </h1>
+                        </div>
+                        <div class="section-sub">
+                            <p class="text-white text-center py-2"
+                                style="font-size: 1rem; max-width: 500px; margin: auto; font-weight: 200;">
+                                Aucun abonnement, aucun frais fixe. Vous ne payez que 4% sur vos revenus, et seulement
+                                quand vous travaillez.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="container my-5">
+                        <div class="row rounded-5 overflow-hidden mx-md-5" style="background-color: #8a5cf6dc;">
+
+                            <!-- Colonne gauche -->
+                            <div class="col-md-6 p-5 border-end border-white border-opacity-25">
+                                <h2 class="text-white fw-bold mb-3">Freelancia</h2>
+                                <p class="text-white mb-4">Travaillez plus, gardez plus.</p>
+                                <p class="text-white mb-4">
+                                    <span class="fw-bold fs-3">seulement 4%</span>
+                                    <span class="ms-2">de commission par mission — 0 abonnement</span>
+                                </p>
+
+                                <button class="btn fw-bold" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvascenter" aria-controls="offcanvascenter"
+                                    style="background-color: white; color: #8b5cf6;">Voir les tarifs</button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvascenter"
+                                    aria-labelledby="offcanvascenterLabel">
+                                    <div class="offcanvas-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+
+                                        <div class="calc-modal card border-0 shadow-lg rounded-4 p-4 mx-auto"
+                                            style="max-width: 480px;">
+
+                                            <!-- En-tête -->
+                                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                                <strong>Calculateur de revenus</strong>
+                                                <span class="calc-close text-muted" style="cursor: pointer;">✕</span>
+                                            </div>
+
+                                            <h2 class="text-center fw-bold mb-2" id="calc-result"
+                                                style="color: #8b5cf6;">3.439.000 $</h2>
+                                            <p class="text-center text-muted small mb-4">
+                                                Revenu net après déduction automatique des frais de commission de 5%.
+                                            </p>
+
+                                            <div class="d-flex justify-content-between fw-semibold small mb-2">
+                                                <span>Glissez pour définir votre CA</span>
+                                                <span id="calc-ca-display">3.620.000 $</span>
+                                            </div>
+                                            <input type="range" class="form-range" id="calc-slider" min="0"
+                                                max="10000000" step="10000" value="3620000"
+                                                style="accent-color: #8b5cf6;" aria-label="Chiffre d'affaires">
+                                            <p class="text-muted small mt-2">Veuillez définir votre chiffre d'affaires.
+                                            </p>
+
+                                            <div class="d-flex justify-content-center gap-2 my-4">
+                                                <button class="btn rounded-pill px-4 fw-semibold curr-btn active"
+                                                    data-currency="USD"
+                                                    style="--curr-color: #8b5cf6; border-color: #8b5cf6;">$</button>
+                                                <button class="btn rounded-pill px-4 fw-semibold curr-btn"
+                                                    data-currency="EUR"
+                                                    style="--curr-color: #8b5cf6; border-color: #8b5cf6;">€</button>
+                                                <button class="btn rounded-pill px-4 fw-semibold curr-btn"
+                                                    data-currency="FCFA"
+                                                    style="--curr-color: #8b5cf6;  border-color: #8b5cf6;">F
+                                                    CFA</button>
+                                            </div>
+                                            <a href="formulaire.html"
+                                                class="btn w-100 rounded-pill py-3 fw-semibold text-white calc-cta"
+                                                style="background-color: #8b5cf6; letter-spacing: 0.3px;">
+                                                Ouvrir ma boutique maintenant →
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Colonne droite -->
+                            <div class="col-md-6 p-5">
+                                <h5 class="text-white text-center fw-bold mb-4" style="letter-spacing: 2px;">
+                                    AVANTAGES
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="text-white mb-3 d-flex align-items-start">
+                                        <i class="fa-solid fa-check me-2 mt-1"></i>
+                                        Aucun abonnement mensuel, vous ne payez que sur vos gains
+                                    </li>
+                                    <li class="text-white mb-3 d-flex align-items-start">
+                                        <i class="fa-solid fa-check me-2 mt-1"></i>
+                                        96% de chaque mission directement dans votre poche
+                                    </li>
+                                    <li class="text-white mb-3 d-flex align-items-start">
+                                        <i class="fa-solid fa-check me-2 mt-1"></i>
+                                        Accès illimité au réseau de clients qualifiés
+                                    </li>
+                                    <li class="text-white mb-3 d-flex align-items-start">
+                                        <i class="fa-solid fa-check me-2 mt-1"></i>
+                                        Paiement sous 48h, en Mobile Money ou virement
+                                    </li>
+                                    <li class="text-white mb-0 d-flex align-items-start">
+                                        <i class="fa-solid fa-check me-2 mt-1"></i>
+                                        Outils de gestion, devis et contrats inclus
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="createurs">
+            <div class="container">
+                <div class="my-5">
+                    <div class="section-header py-5">
+                        <div class="section-label">
+                            <h5 class="text-center py-2 pt-4 fs-6" style="color: #8b5cf6; letter-spacing: 3px;">
+                                LE PROCHAIN C'EST VOUS
+                            </h5>
+                        </div>
+                        <div class="section-title">
+                            <h1 class="left-0 right-0 py-2 m-md-2 text-center text-white">
+                                Nos freelances de confiance
+                            </h1>
+                        </div>
+                        <div class="section-sub">
+                            <p class="text-white text-center py-2"
+                                style="font-size: 1rem; max-width: 500px; margin: auto; font-weight: 200;">
+                                Ces talents bâtissent leur succès sur Freelancia. Votre réussite commence ici.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="container my-5">
+                        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3 mx-1 mx-md-5 ">
+                            <div class="col">
+                                <div class="card shadow-sm rounded-4 text-center">
+                                    <img src="image/NEWWEE~1.webp" alt="Edem Yao" class="rounded-top-4 mb-3 img-fluid">
+                                    <div class="body py-2">
+                                        <h6 class="fw-bold text-white">Kwame Bediako</h6>
+                                    <small class="card-text">Dev full-stack</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm rounded-4 text-center">
+                                    <img src="image/Gabe-Kunda.webp" alt="Edem Yao" class="rounded-top-4 mb-3 img-fluid">
+                                    <div class="body py-2">
+                                        <h6 class="fw-bold text-white">Edem Yao</h6>
+                                    <small class="card-text">Dev full-stack</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm rounded-4 text-center">
+                                    <img src="image/cc368ca63e13ef0380a2bbd87dc06a36.jpg" alt="Edem Yao" class="rounded-top-4 mb-3 img-fluid">
+                                    <div class="body py-2">
+                                        <h6 class="fw-bold text-white">Edem Yao</h6>
+                                    <small class="card-text">Dev full-stack</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm rounded-4 text-center">
+                                    <img src="image/NEWWEE~1.webp" alt="Edem Yao" class="rounded-top-4 mb-3 img-fluid">
+                                    <div class="body py-2">
+                                        <h6 class="fw-bold text-white">Edem Yao</h6>
+                                    <small class="card-text">Dev full-stack</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm rounded-4 text-center">
+                                    <img src="image/NEWWEE~1.webp" alt="Edem Yao" class="rounded-top-4 mb-3 img-fluid">
+                                    <div class="body py-2">
+                                        <h6 class="fw-bold text-white">Edem Yao</h6>
+                                    <small class="card-text">Dev full-stack</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm rounded-4 text-center">
+                                    <img src="image/NEWWEE~1.webp" alt="Edem Yao" class="rounded-top-4 mb-3 img-fluid">
+                                    <div class="body py-2">
+                                        <h6 class="fw-bold text-white">Edem Yao</h6>
+                                    <small class="card-text">Dev full-stack</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

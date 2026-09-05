@@ -86,3 +86,7 @@ h1{
     border: 1px solid rgba(245, 245, 220, 0.153);
 }
 
+.card-fonction{
+    background-color: #8a5cf659;
+    border: 1px solid #8a5cf6c4;;
+}
