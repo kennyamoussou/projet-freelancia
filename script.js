@@ -69,3 +69,13 @@ if (calcSlider) {
 
     updateCalculator();
 }
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.accordion-header-custom').forEach(header => {
+    header.addEventListener('click', () => {
+      const item = header.parentElement;
+      item.classList.toggle('active');
+    });
+  });
+});
